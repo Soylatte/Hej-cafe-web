@@ -1,0 +1,91 @@
+/* Default styles for all screen sizes */
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.btn {
+    background-color: #3563E9;
+    border: 1px solid rgb(240,240,240);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.title {
+    display: inline-flex;
+    padding: 80px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom-Navbar {
+    color: #3563E9;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    padding: 80px 112px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.container {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header {
+    padding: 0 auto;
+}
+
+.header-name {
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+ul {
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-container {
+    width: 590px;
+    height: 400.462px;
+    flex-shrink: 0;
+}
+
+
+/* Responsive styles for screen width 80rem (1280px) and above */
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+    }
+
+    .title {
+        padding: 80px 120px;
+    }
+
+    .description {
+        padding: 80px 112px;
+    }
+}

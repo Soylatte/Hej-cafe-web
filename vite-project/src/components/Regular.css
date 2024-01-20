@@ -1,0 +1,18 @@
+.input-btn{
+    padding: 200px;
+}
+.header-re{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+.btn-2{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .input-container{
+    max-width: 768px;
+  }
+}
+
