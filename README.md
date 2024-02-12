@@ -12,3 +12,5 @@ A web site newly opened cafe you can join the waitlist as well
 It's important to make sure your website works and looks good on a variety of devices.
 
 # Stacks
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
+<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"/>
